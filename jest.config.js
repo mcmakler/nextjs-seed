@@ -1,5 +1,5 @@
 module.exports = {
   verbose: true,
-  roots: ['test'],
+  roots: ['shared'],
   moduleDirectories: ['node_modules', 'mock/data'],
 };
