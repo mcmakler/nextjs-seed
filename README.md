@@ -1,7 +1,10 @@
-# Email Appointment Confirmation
+# McMakler NextJS Seed Project
 
-### Spin Up
+Used to easily start working on NextJS requirements.
+ 
+ 
+Includes:
 
-- Clone the project
-- Do `npm install` or `yarn` which ever you like the most
-- `npm run dev` will sping up a local server on port `3000`
+- AirBnB's eslint with 2 custom rules
+- Jest testing environment
+- Basic setup for Layout, Header, Footer components and an Index
