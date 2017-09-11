@@ -1,0 +1,37 @@
+{
+  "name": "email-appointment-confirmation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "lint": "eslint . --fix",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mcmakler.com:nodejs/email-appointment-confirmation.git"
+  },
+  "keywords": [],
+  "author": "Baruch Velez <baruch.velez@mcmakler.de>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "jest": "^21.0.2"
+  }
+}
