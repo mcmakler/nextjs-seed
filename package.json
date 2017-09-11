@@ -21,11 +21,15 @@
   "author": "Baruch Velez <baruch.velez@mcmakler.de>",
   "license": "ISC",
   "dependencies": {
+    "glob": "^7.1.2",
+    "mcmakler-design-guide": "^3.1.6",
     "next": "^3.2.2",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.4",
     "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-airbnb-base": "^12.0.0",
@@ -33,6 +37,13 @@
     "eslint-plugin-jest": "^21.0.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.3.0",
-    "jest": "^21.0.2"
+    "husky": "^0.14.3",
+    "jest": "^21.0.2",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6"
   }
 }

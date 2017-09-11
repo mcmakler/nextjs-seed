@@ -1,6 +1,5 @@
 module.exports = {
   verbose: true,
-  setupTestFrameworkScriptFile: './jest.init.js',
-  roots: ['shared'],
+  roots: ['test'],
   moduleDirectories: ['node_modules', 'mock/data'],
 };
