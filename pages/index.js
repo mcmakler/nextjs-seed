@@ -8,10 +8,6 @@ const Index = () => (
   </Layout>
 );
 
-Index.getInitialProps = async () => {
-  const res = await fetch('https://api.github.com/repos/zeit/next.js');
-  const json = await res.json();
-  return { stars: json.stargazers_count };
-};
+Index.getInitialProps = async () => ({});
 
 export default Index;
