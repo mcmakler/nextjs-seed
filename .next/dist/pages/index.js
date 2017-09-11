@@ -12,7 +12,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = '/Users/mcmaklerdeveloper/Projects/nodejs/email-appointment-confirmation/pages/index.js?entry';
 
-exports.default = function () {
+
+var Index = function Index() {
   return _react2.default.createElement('div', {
     __source: {
       fileName: _jsxFileName,
@@ -20,4 +21,6 @@ exports.default = function () {
     }
   }, 'Hello World!');
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0Il0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQSxBQUFPLEFBRVA7Ozs7Ozs7O2tCQUFlLFlBQUE7eUJBQU0sY0FBQTs7Z0JBQUE7a0JBQUE7QUFBQTtBQUFBLEdBQUEsRUFBTixBQUFNO0FBQXJCIiwiZmlsZSI6ImluZGV4LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy9tY21ha2xlcmRldmVsb3Blci9Qcm9qZWN0cy9ub2RlanMvZW1haWwtYXBwb2ludG1lbnQtY29uZmlybWF0aW9uIn0=
+
+exports.default = Index;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiSW5kZXgiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLEFBQU87Ozs7Ozs7OztBQUVQLElBQU0sUUFBUSxTQUFSLEFBQVEsUUFBQTt5QkFBTSxjQUFBOztnQkFBQTtrQkFBQTtBQUFBO0FBQUEsR0FBQSxFQUFOLEFBQU07QUFBcEIsQUFFQTs7a0JBQUEsQUFBZSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWNtYWtsZXJkZXZlbG9wZXIvUHJvamVjdHMvbm9kZWpzL2VtYWlsLWFwcG9pbnRtZW50LWNvbmZpcm1hdGlvbiJ9
