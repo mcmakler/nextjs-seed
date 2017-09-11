@@ -1,4 +1,4 @@
-import ApiHelper from './../shared/ApiHelper';
+import ApiHelper from './ApiHelper';
 
 describe('ApiHelper', () => {
   let helper;
