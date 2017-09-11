@@ -1,8 +1,8 @@
-import { apiUrl } from './config';
+import config from './config';
 
 class ApiHelper {
   constructor() {
-    this.apiUrl = apiUrl;
+    this.apiUrl = config.apiUrl;
   }
 }
 
