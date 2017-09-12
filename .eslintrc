@@ -2,7 +2,8 @@
   "extends": "airbnb",
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/no-danger": "off"
+    "react/no-danger": "off",
+    "class-methods-use-this": "off"
   },
   "globals": {
     "fetch": true

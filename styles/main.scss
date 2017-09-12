@@ -1,0 +1,15 @@
+@import "~mcmakler-design-guide/src/scss/variables";
+@import "~mcmakler-design-guide/src/scss/typography";
+
+@import "./animations";
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: map-get($fonts, "bodyFont"), sans-serif;
+  padding: 0;
+  margin: 0;
+}
