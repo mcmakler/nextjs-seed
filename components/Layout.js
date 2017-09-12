@@ -10,6 +10,8 @@ const Layout = props => (
   <div>
     <Head>
       <title> { props.title } </title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <Header />
@@ -21,7 +23,7 @@ const Layout = props => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.instanceOf(Object).isRequired,
   title: PropTypes.string,
 };
 
