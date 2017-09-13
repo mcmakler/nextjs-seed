@@ -1,4 +1,4 @@
-#NextJS Seed Project
+# NextJS Seed Project
 
 Easily and effortlessly start working on NextJS applications, just clone and run.
 
