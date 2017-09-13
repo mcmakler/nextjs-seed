@@ -1,5 +1,5 @@
 const config = {
-  apiUrl: process.env.API_URL || 'https://applications-develop.mcmakler.com',
+  apiUrl: process.env.API_URL || 'http://localhost:8080',
 };
 
 export default config;
