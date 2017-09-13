@@ -11,11 +11,12 @@
     "start": "next start",
     "build": "next build",
     "lint": "eslint . --fix",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "prepush": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.mcmakler.com:nodejs/email-appointment-confirmation.git"
+    "url": "git@github.com:mcmakler/nextjs-seed.git"
   },
   "keywords": [],
   "author": "Baruch Velez <baruch.velez@mcmakler.de>",
