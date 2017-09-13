@@ -1,7 +1,7 @@
 {
-  "name": "email-appointment-confirmation",
-  "version": "1.0.0",
-  "description": "",
+  "name": "nextjs-seed",
+  "version": "1.0.0-beta",
+  "description": "Seed project for NextJS applications.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -19,7 +19,10 @@
   },
   "keywords": [],
   "author": "Baruch Velez <baruch.velez@mcmakler.de>",
-  "license": "ISC",
+  "contributors": [
+    "Sai Satchitanand <sai.satchitanand@mcmakler.de>"
+  ],
+  "license": "MIT",
   "dependencies": {
     "glob": "^7.1.2",
     "isomorphic-fetch": "^2.2.1",
