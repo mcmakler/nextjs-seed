@@ -1,6 +1,6 @@
 {
   "name": "nextjs-seed",
-  "version": "1.0.0-beta",
+  "version": "1.0.1",
   "description": "Seed project for NextJS applications.",
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,10 @@
     "glob": "^7.1.2",
     "isomorphic-fetch": "^2.2.1",
     "mcmakler-design-guide": "^3.1.6",
-    "next": "^3.2.2",
+    "next": "^4.0.0",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
